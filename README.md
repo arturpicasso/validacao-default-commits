@@ -7,11 +7,11 @@ Siga os seguintes passos para utilizar os hooks:
 1) Clone o repositório em seu local: <br />
 git clone https://github.com/julioarruda/hooks.git
 
-2 - Pelo terminal, acesse a pasta hooks do projeto. 
+2) Pelo terminal, acesse a pasta hooks do projeto. 
 3) Execute o camando ' pwd ' para obter o caminho da pasta 
-4) Dê permissão de execução para seus arquivos ' pre-commit ' e ' prepare-commit-msg ' 
-chmod +x /workspaces/hooks/hooks/pre-commit
-chmod +x /workspaces/hooks/hooks/prepare-commit-msg
+4) Dê permissão de execução para seus arquivos ' pre-commit ' e ' prepare-commit-msg '  <br />
+chmod +x /workspaces/hooks/hooks/pre-commit <br />
+chmod +x /workspaces/hooks/hooks/prepare-commit-msg 
 
 5) Execute o comando abaixo
 git config core.hooksPath /workspaces/hooks/hooks
