@@ -24,7 +24,7 @@ Assim o novo colaborador precisará fazer o download do repositório centralizad
 
 # Comandos Git
 
-Listar todos os branchs, tanto local como remoto
+Listar todos os branchs, tanto local como remoto<br />
 git branch -a
 
 Alterar nome do branch etando dentro da branch que será renomeada  <br />
