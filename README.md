@@ -27,7 +27,7 @@ Assim o novo colaborador precisará fazer o download do repositório centralizad
 Listar os branchs local e remoto <br />
 git branch -a
 
-Alterar nome do branch etando dentro da branch que será renomeada  <br />
+Alterar nome do branch estando dentro da branch que será renomeada  <br />
 git branch -m novo-nome
 
 Alterar nome do branch não estando dentro da branch que será renomeada <br />
