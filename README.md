@@ -8,7 +8,8 @@ Siga os seguintes passos para utilizar os hooks:
 git clone https://github.com/julioarruda/hooks.git
 
 2) Pelo terminal, acesse a pasta hooks do projeto. 
-3) Execute o camando ' pwd ' para obter o caminho da pasta 
+3) Para ober o caminho da pasta hooks, execute o comando ' pwd ' pelo terminal. <br />
+pwd
 4) Dê permissão de execução para seus arquivos ' pre-commit ' e ' prepare-commit-msg '  <br />
 chmod +x /workspaces/hooks/hooks/pre-commit <br />
 chmod +x /workspaces/hooks/hooks/prepare-commit-msg 
