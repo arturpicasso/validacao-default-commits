@@ -7,7 +7,8 @@ Siga os seguintes passos para utilizar os hooks:
 1) Clone o repositório em seu local: <br />
 ````git clone https://github.com/arturpicasso/validacao-default-commits.git````
 
-2) Pelo terminal, acesse a pasta hooks do projeto. 
+2) Estando dentro do projeto local, acesse a pasta hooks. 
+`cd hooks`
 
 3) Para ober o caminho da pasta hooks, execute o comando 'pwd' pelo terminal: <br />
 ````pwd````
