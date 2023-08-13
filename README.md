@@ -17,10 +17,15 @@ chmod +x /workspaces/hooks/hooks/prepare-commit-msg
 5) Para que as validações dos commits e do dome das branchs sejam iniciadas, execute o comando abaio pelo terminal:  
 git config --global core.hooksPath /seu-caminho-projeto-local/validacao-default-commits/hooks
 
-# Alterar nome da Branch
-git branch -m novo-nome
-
 # Sugestão
 
 Estabeleça um repositório central que contenha todos os Hooks padronizados na empresa.
 Assim o novo colaborador precisará fazer o download do repositório centralizado e ajustar as configurações dos Hooks em sua máquina, assegurando que todos os colaboradores irão seguir os padrões estabelecidos pela empresa.
+
+# Comandos Git
+
+Alterar nome da branch etando dentro da branch que será renomeada 
+git branch -m novo-nome
+
+Alterar nome da branch não estando dentro da branch que será renomeada
+git branch -m nome-antigo novo-nome
