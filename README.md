@@ -13,7 +13,7 @@ Siga os seguintes passos para utilizar os hooks:
 3) Para ober o caminho da pasta hooks, execute o comando 'pwd' pelo terminal: <br />
 `pwd`
 
-5) Dê permissão de execução para seus arquivos 'pre-commit' e 'prepare-commit-msg':  <br />
+5) Dê permissão de execução para os arquivos 'pre-commit' e 'prepare-commit-msg': <br />
 `chmod +x /workspaces/hooks/hooks/pre-commit` <br />
 `chmod +x /workspaces/hooks/hooks/prepare-commit-msg`
 
