@@ -33,8 +33,8 @@ git branch -m novo-nome
 Alterar nome do branch não estando dentro da branch que será renomeada <br />
 git branch -m nome-antigo novo-nome
 
-Excluir Branch Local<br />
-* Vai remover a branch local independentemente de você ter feito os processos de push ou de merge com o branch remoto.<br />
+Excluir Branch Local <br />
+Vai remover a branch local independentemente de você ter feito os processos de push ou de merge com o branch remoto. <br />
 git branch -D nome_do_branch
 
 **** Renomear branch remoto
