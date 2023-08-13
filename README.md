@@ -14,7 +14,7 @@ pwd
 chmod +x /workspaces/hooks/hooks/pre-commit <br />
 chmod +x /workspaces/hooks/hooks/prepare-commit-msg 
 
-5) Para que as validações dos commits e do dome das branchs sejam iniciadas, execute o comando abaio pelo terminal:  
+5) Para que as validações dos commits e do nome dos branchs sejam iniciados, execute no terminal o comando abaixo:  
 git config --global core.hooksPath /seu-caminho-projeto-local/validacao-default-commits/hooks
 
 # Sugestão
