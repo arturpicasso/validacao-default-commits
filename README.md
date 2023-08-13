@@ -4,7 +4,7 @@ Hooks utilizados para apoiar a padronização de Branches e também da mensagem 
 
 Siga os seguintes passos para utilizar os hooks:
 
-1 - Clone o repositório em seu local: <br />
+1) Clone o repositório em seu local: <br />
 git clone https://github.com/julioarruda/hooks.git
 
 2 - Pelo terminal, acesse a pasta hooks do projeto. 
