@@ -53,4 +53,4 @@ git push origin --delete nome-antigo<br />
 git push origin :old-name novo-nome
 
 Redefina o upstream branch para o seu novo branch local e estará tudo pronto:<br />
-git push origin -u novo-nome
+````git push origin -u novo-nome````
