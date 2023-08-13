@@ -19,5 +19,5 @@ git config core.hooksPath /workspaces/hooks/hooks
 
 # Sugestão
 
-Você poderia criar um repositório centralizado, com todos os Hooks que sejam padrões para a empresa. <br />
-* Novas pessoas colaboradoras, devem baixar esse repositório centralizado, e configurar o diretório de Hooks da máquina para esse repositório central, garantindo que todas as pessoas sigam os mesmos passos.
+Será possível estabelecer um repositório central que contenha todos os Hooks padronizados na empresa.
+Assim o novo colaborador precisará fazer o download do repositório centralizado e ajustar as configurações dos Hooks em sua máquina, assegurando que todos os colaboradores irão seguir os padrões estabelecidos pela empresa.
