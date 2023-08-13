@@ -4,10 +4,10 @@ Hooks utilizados para apoiar a padronização de Branches e também da mensagem 
 
 Siga os seguintes passos para utilizar os hooks:
 
-1) Clone o repositório em seu local:
+1 - Clone o repositório em seu local:
 git clone https://github.com/julioarruda/hooks.git
 
-2) Pelo terminal, acesse a pasta hooks do projeto. 
+2 - Pelo terminal, acesse a pasta hooks do projeto. 
 3) Execute o camando ' pwd ' para obter o caminho da pasta 
 4) Dê permissão de execução para seus arquivos ' pre-commit ' e ' prepare-commit-msg ' 
 chmod +x /workspaces/hooks/hooks/pre-commit
