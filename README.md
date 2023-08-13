@@ -8,13 +8,15 @@ Siga os seguintes passos para utilizar os hooks:
 ````git clone https://github.com/arturpicasso/validacao-default-commits.git````
 
 2) Pelo terminal, acesse a pasta hooks do projeto. 
+
 3) Para ober o caminho da pasta hooks, execute o comando 'pwd' pelo terminal: <br />
-pwd
-4) Dê permissão de execução para seus arquivos 'pre-commit' e 'prepare-commit-msg':  <br />
+````pwd````
+
+5) Dê permissão de execução para seus arquivos 'pre-commit' e 'prepare-commit-msg':  <br />
 ````chmod +x /workspaces/hooks/hooks/pre-commit```` <br />
 ````chmod +x /workspaces/hooks/hooks/prepare-commit-msg````
 
-5) Para que as validações dos commits e do nome dos branchs sejam iniciados, execute no terminal o comando abaixo:  
+6) Para que as validações dos commits e do nome dos branchs sejam iniciados, execute no terminal o comando abaixo:  
 ````git config --global core.hooksPath /seu-caminho-projeto-local/validacao-default-commits/hooks````
 
 # Sugestão
