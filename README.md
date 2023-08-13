@@ -17,6 +17,9 @@ chmod +x /workspaces/hooks/hooks/prepare-commit-msg
 5) Para que as validações dos commits e do dome das branchs sejam iniciadas, execute o comando abaio pelo terminal:  
 git config core.hooksPath /workspaces/hooks/hooks
 
+# Alterar nome da Branch
+git branch -m novo-nome
+
 # Sugestão
 
 Estabeleça um repositório central que contenha todos os Hooks padronizados na empresa.
