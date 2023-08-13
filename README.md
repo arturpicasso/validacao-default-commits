@@ -49,8 +49,8 @@ Renomear Branch
 git branch -m novo-nome <br />
 
 Deletar o branch antigo e executar o push do novo.<br />
-git push origin --delete nome-antigo<br />
-git push origin :old-name novo-nome
+````git push origin --delete nome-antigo````
+````git push origin :old-name novo-nome````
 
 Redefina o upstream branch para o seu novo branch local e estará tudo pronto:<br />
 ````git push origin -u novo-nome````
