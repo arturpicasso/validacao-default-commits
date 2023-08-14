@@ -23,7 +23,7 @@ Siga os seguintes passos para utilizar os hooks:
 ## Sugestão
 
 Estabeleça um repositório central que contenha todos os Hooks padronizados na empresa.
-Assim o novo colaborador precisará fazer o download do repositório centralizado e ajustar as configurações dos Hooks em sua máquina, assegurando que todos os colaboradores irão seguir os padrões estabelecidos pela empresa.
+Assim o novo colaborador precisará fazer o download do repositório centralizado e ajustar as configurações dos Hooks em sua máquina, assim será assegurado que todos os colaboradores irão seguir os padrões estabelecidos pela empresa.
 
 ## Exemplos do Nome do Branch e Descrição do Commit: <br />
 Nome Branch: <br />
