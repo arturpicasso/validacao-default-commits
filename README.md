@@ -80,10 +80,10 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 
 Inicial teste 123456asdasda
 
-<b>feature</b>: São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir da branch Develop.
+<b>feature</b>: São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir do branch develop.
 
-<b>release</b>: A branch release serve como ponte para fazer o merge da Develop para a Master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com a Master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a Develop.
+<b>release</b>: A branch release serve como ponte para fazer o merge do develop para o master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com o master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a develop.
 
-<b>hotfix</b>: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada da Master. Esses são os únicos branches que irão se ramificar da Master, onde no final será mergeado diretamente em Produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
+<b>hotfix</b>: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada do master. Esses são os únicos branches que irão se ramificar do master, onde no final será mergeado diretamente no branch master em produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
 
-<b>bugfix</b>: Se um problema for encontrado no branch Release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado na Release, e caso esteja corrigido, será mergeado na Develop. O branch é removido após ser mergeada.
+<b>bugfix</b>: Se um problema for encontrado no branch release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado no branch release, e caso esteja corrigido, será mergeado no develop. O branch é removido após ser mergeado.
