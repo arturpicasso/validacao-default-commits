@@ -20,7 +20,7 @@ Siga os seguintes passos para utilizar os hooks:
 6) Para que as validações dos commits e do nome dos branchs sejam ativados no git, execute o comando abaixo em seu terminal local:<br />
 `git config --global core.hooksPath /seu-caminho-projeto-local/validacao-default-commits/hooks`
 
-# Sugestão
+# Sugestão  asdawda
 
 Estabeleça um repositório central que contenha todos os Hooks padronizados na empresa.
 Assim o novo colaborador precisará fazer o download do repositório centralizado e ajustar as configurações dos Hooks em sua máquina, assegurando que todos os colaboradores irão seguir os padrões estabelecidos pela empresa.
