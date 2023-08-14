@@ -26,8 +26,7 @@ Nome Branch: <br />
 `git checkout -b bugfix/nome-da-branch` <br />
 `git checkout -b release/nome-da-branch` <br />
 `git checkout -b hotfix/nome-da-branch` <br />
-
-Descritivo do Commit:
+Descritivo do Commit: <br />
 `git commit -m "feat: descrição do commit."` <br />
 `git commit -m "fix: descrição do commit."` <br />
 `git commit -m "docs: descrição do commit."` <br />
