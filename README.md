@@ -102,3 +102,15 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 <b>hotfix</b>: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada do master. Esses são os únicos branches que irão se ramificar do master, onde no final será mergeado diretamente no branch master em produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
 
 <b>bugfix</b>: Se um problema for encontrado no branch release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado no branch release, e caso esteja corrigido, será mergeado no develop. O branch é removido após ser mergeado.
+
+### Mensagem-Commit
+
+feat: Serve para novas features que forem criadas.
+fix: Correções de algum bug.
+docs: Relacionado a documentações, README e afins.
+style: Alterações no estilo, CSS.
+refactor: Alterar ou melhorar algum código.
+perf: Quando mexer em algo relacionado a performance.
+test: Para testar algo.
+chore: Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json, atualização de versão do pacote ou instalação de novas dependências.
+other: Não se enquadra em nehum dos itens acima. 
