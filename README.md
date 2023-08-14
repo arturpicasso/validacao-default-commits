@@ -40,7 +40,6 @@ Excluir Branch Local <br />
 Vai remover a branch local independentemente de você ter feito os processos de push ou de merge com o branch remoto. <br />
 `git branch -D nome_do_branch`
 
-=======
 
 # Renomear Branch Remoto
 
