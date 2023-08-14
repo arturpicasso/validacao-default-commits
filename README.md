@@ -1,6 +1,6 @@
 # Git Hooks
 
-Hooks utilizados para apoiar a padronização de Branches e também da mensagem de commits utilizados nos projetos.
+Hooks utilizados para apoiar a padronização de branches e também das mensagens de commits utilizados nos projetos.
 
 Siga os seguintes passos para utilizar os hooks:
 
