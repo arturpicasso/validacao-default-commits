@@ -40,7 +40,7 @@ Excluir Branch Local <br />
 Vai remover a branch local independentemente de você ter feito os processos de push ou de merge com o branch remoto. <br />
 `git branch -D nome_do_branch`
 
-# Dica: Renomear Branch Remoto
+# Renomear Branch Remoto
 
 Para começar, você vai precisar renomear um branch local: <br />
 `Acesse o branch a ser renomeado` <br />
@@ -56,7 +56,7 @@ Deletar o branch antigo e executar o push do novo.<br />
 Redefina o upstream branch para o seu novo branch local e estará tudo pronto:<br />
 `git push origin -u novo-nome`
 
-# Dica: Sempre Mantenha Seu Branch Atualizado
+# Sempre Mantenha Seu Branch Atualizado
 
 Acesse o branch master:  <br />
 `git checkout master`
