@@ -76,14 +76,14 @@ Desfazer o último comando add ou commit: <br />
 Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como alterações a serem commitadas (adicionadas à um commit). <br />
 `git reset HEAD~`
 
-### Branchs-Nomenclatura (feature|release|hotfix|bugfix)
+### Branchs-Nomenclatura ( feature | release | hotfix | bugfix)
 
 Inicial teste 123456asdasda
 
-feature: São branches para o desenvolvimento de uma funcionalidade específica. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir da branch Develop.
+<b>feature</b>: São branches para o desenvolvimento de uma funcionalidade específica. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir da branch Develop.
 
-release: A Branch release serve como ponte para fazer o merge da Develop para a Master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com a Master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a Develop.
+<b>release</b>: A Branch release serve como ponte para fazer o merge da Develop para a Master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com a Master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a Develop.
 
-hotfix: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada da Master. Esses são os únicos branches que irão se ramificar da Master, onde no final será mergeado diretamente em Produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
+<b>hotfix</b>: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada da Master. Esses são os únicos branches que irão se ramificar da Master, onde no final será mergeado diretamente em Produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
 
-bugfix: Um branch é criado a partir da Develop para realizar as correções. No final ele será mergeado na Develop e depois em Produção. O branch é removido após ser mergeada.
+<b>bugfix</b>: Um branch é criado a partir da Develop para realizar as correções. No final ele será mergeado na Develop e depois em Produção. O branch é removido após ser mergeada.
