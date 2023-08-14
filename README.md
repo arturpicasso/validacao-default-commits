@@ -58,14 +58,14 @@ Redefina o upstream branch para o seu novo branch local e estará tudo pronto:<b
 
 # Dica: Sempre Mantenha Seu Branch Atualizado
 
-Acesse o branch master: 
+Acesse o branch master:  <br />
 `git checkout master`
 
-Atualize o branch master local conforme está no remote: 
+Atualize o branch master local conforme está no remote:  <br />
 `git pull`
 
-Volte para o branch onde está atuando: 
+Volte para o branch onde está atuando:  <br />
 `git checkout release/meu-branch`
 
-Atualize o branch em que está atuando fazendo o merge: 
+Atualize o branch em que está atuando fazendo o merge:  <br />
 `git merge master`
