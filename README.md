@@ -95,22 +95,22 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 
 ### Branches-Nomenclatura ( feature | release | hotfix | bugfix)
 
-<b>feature</b>: São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir do branch develop.
+<b>feature:</b> São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir do branch develop.
 
-<b>release</b>: A branch release serve como ponte para fazer o merge do develop para o master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com o master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a develop.
+<b>release:</b> A branch release serve como ponte para fazer o merge do develop para o master. Ela funciona como ambiente de homologação e é removida após realizar os testes do merge com o master. Caso seja encontrado algum bug e haja alguma alteração, ela também deve ser sincronizada com a develop.
 
-<b>hotfix</b>: Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada do master. Esses são os únicos branches que irão se ramificar do master, onde no final será mergeado diretamente no branch master em produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
+<b>hotfix:</b> Se um grande problema for encontrado em produção, a correção é desenvolvida em uma ramificação de hotfix, que é ramificada do master. Esses são os únicos branches que irão se ramificar do master, onde no final será mergeado diretamente no branch master em produção. É utilizada quando ocorre algum problema no ambiente de produção no qual a correção deve ser feita imediatamente.
 
-<b>bugfix</b>: Se um problema for encontrado no branch release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado no branch release, e caso esteja corrigido, será mergeado no develop. O branch é removido após ser mergeado.
+<b>bugfix:</b> Se um problema for encontrado no branch release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado no branch release, e caso esteja corrigido, será mergeado no develop. O branch é removido após ser mergeado.
 
 ### Mensagem-Commit
 
-feat: Serve para novas features que forem criadas. <br />
-fix: Correções de algum bug. <br />
-docs: Relacionado a documentações, README e afins. <br />
-style: Alterações no estilo, CSS. <br />
-refactor: Alterar ou melhorar algum código. <br />
-perf: Quando mexer em algo relacionado a performance. <br />
-test: Para testar algo. <br />
-chore: Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json, atualização de versão do pacote ou instalação de novas dependências. <br />
-other: Não se enquadra em nehum dos itens acima.  <br />
+<b>feat:</b> Serve para novas features que forem criadas. <br />
+<b>fix:</b> Correções de algum bug. <br />
+<b>docs:</b> Relacionado a documentações, README e afins. <br />
+<b>style:</b> Alterações no estilo, CSS. <br />
+<b>refactor:</b> Alterar ou melhorar algum código. <br />
+<b>perf:</b> Quando mexer em algo relacionado a performance. <br />
+<b>test:</b> Para testar algo. <br />
+<b>chore:</b> Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json, atualização de versão do pacote ou instalação de novas dependências. <br />
+<b>other:</b> Não se enquadra em nehum dos itens acima.  <br />
