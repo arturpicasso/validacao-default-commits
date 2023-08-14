@@ -20,6 +20,25 @@ Siga os seguintes passos para utilizar os hooks:
 6) Para que as validações dos commits e do nome dos branches sejam ativados no git, execute o comando abaixo em seu terminal local:<br />
 `git config --global core.hooksPath /seu-caminho-projeto-local/validacao-default-commits/hooks`
 
+7) Exemplos do Nome do Branch e Descrição do Commit:
+
+Nome Branch: <br />
+`git checkout -b feature/nome-da-branch`
+`git checkout -b bugfix/nome-da-branch`
+`git checkout -b release/nome-da-branch`
+`git checkout -b hotfix/nome-da-branch`
+
+Descritivo do Commit:
+`git commit -m "feat: descrição do commit."`
+`git commit -m "fix: descrição do commit."`
+`git commit -m "docs: descrição do commit."`
+`git commit -m "style: descrição do commit."`
+`git commit -m "refactor: descrição do commit."`
+`git commit -m "perf: descrição do commit."`
+`git commit -m "test: descrição do commit."`
+`git commit -m "chore: descrição do commit."`
+`git commit -m "other: descrição do commit."`
+
 # Sugestão
 
 Estabeleça um repositório central que contenha todos os Hooks padronizados na empresa.
