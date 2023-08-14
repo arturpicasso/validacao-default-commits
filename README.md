@@ -23,21 +23,21 @@ Siga os seguintes passos para utilizar os hooks:
 7) Exemplos do Nome do Branch e Descrição do Commit:
 
 Nome Branch: <br />
-`git checkout -b feature/nome-da-branch`
-`git checkout -b bugfix/nome-da-branch`
-`git checkout -b release/nome-da-branch`
-`git checkout -b hotfix/nome-da-branch`
+`git checkout -b feature/nome-da-branch` <br />
+`git checkout -b bugfix/nome-da-branch` <br />
+`git checkout -b release/nome-da-branch` <br />
+`git checkout -b hotfix/nome-da-branch` <br />
 
 Descritivo do Commit:
-`git commit -m "feat: descrição do commit."`
-`git commit -m "fix: descrição do commit."`
-`git commit -m "docs: descrição do commit."`
-`git commit -m "style: descrição do commit."`
-`git commit -m "refactor: descrição do commit."`
-`git commit -m "perf: descrição do commit."`
-`git commit -m "test: descrição do commit."`
-`git commit -m "chore: descrição do commit."`
-`git commit -m "other: descrição do commit."`
+`git commit -m "feat: descrição do commit."` <br />
+`git commit -m "fix: descrição do commit."` <br />
+`git commit -m "docs: descrição do commit."` <br />
+`git commit -m "style: descrição do commit."` <br />
+`git commit -m "refactor: descrição do commit."` <br />
+`git commit -m "perf: descrição do commit."` <br />
+`git commit -m "test: descrição do commit."` <br />
+`git commit -m "chore: descrição do commit."` <br />
+`git commit -m "other: descrição do commit."` <br />
 
 # Sugestão
 
@@ -96,8 +96,6 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 `git reset HEAD~`
 
 ### Branches-Nomenclatura ( feature | release | hotfix | bugfix)
-
-Inicial teste 123456asdasda
 
 <b>feature</b>: São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir do branch develop.
 
