@@ -105,12 +105,12 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 
 ### Mensagem-Commit
 
-feat: Serve para novas features que forem criadas.
-fix: Correções de algum bug.
-docs: Relacionado a documentações, README e afins.
-style: Alterações no estilo, CSS.
-refactor: Alterar ou melhorar algum código.
-perf: Quando mexer em algo relacionado a performance.
-test: Para testar algo.
-chore: Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json, atualização de versão do pacote ou instalação de novas dependências.
-other: Não se enquadra em nehum dos itens acima. 
+feat: Serve para novas features que forem criadas. <br />
+fix: Correções de algum bug. <br />
+docs: Relacionado a documentações, README e afins. <br />
+style: Alterações no estilo, CSS. <br />
+refactor: Alterar ou melhorar algum código. <br />
+perf: Quando mexer em algo relacionado a performance. <br />
+test: Para testar algo. <br />
+chore: Serve para coisas relacionados a build, configs e afins. Por exemplo, mexeu em algo no package.json, atualização de versão do pacote ou instalação de novas dependências. <br />
+other: Não se enquadra em nehum dos itens acima.  <br />
