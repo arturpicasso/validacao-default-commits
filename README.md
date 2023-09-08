@@ -10,7 +10,7 @@ Siga os seguintes passos para utilizar os hooks:
 2) Estando dentro do projeto local (validacao-default-commits), acesse a pasta hooks. <br />
 `cd hooks` 
 
-3) Para ober o caminho da pasta hooks, execute o comando 'pwd' pelo terminal: <br />
+3) Para obter o caminho da pasta hooks, execute o comando 'pwd' pelo terminal: <br />
 `pwd`
 
 5) Dê permissão de execução para os arquivos 'pre-commit' e 'prepare-commit-msg': <br />
