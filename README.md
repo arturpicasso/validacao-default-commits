@@ -97,7 +97,7 @@ Obs.: Os arquivos adicionados e/ou alterados, voltarão a serem marcados como al
 
 <b>feature:</b> São branches referentes a funcionalidades específicas. Elas devem ter o nome iniciado por feature, por exemplo, “feature/sistema-pagamento”. É importante saber que essas features branches são criadas sempre a partir do branch develop.
 
-<b>develop:</b> Branch referência para criação das branchs features.
+<b>develop:</b> Branch referência para criação dos branches features.
 
 <b>bugfix:</b> Se um problema for encontrado no branch release, será criado um branch bugfix a partir do branch Release e será realizado as correções. No final ele será mergeado no branch release, e caso esteja corrigido, será mergeado no develop. O branch é removido após ser mergeado.
 
